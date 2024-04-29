@@ -27,7 +27,7 @@ This single-notebook project provides a complete workflow for:
 - `/new_images/` - Directory for independent test images.
 - `/flask_app/app.py` - Flask web application code.
 - `requirements.txt` is the file that lists all the Python packages and their versions
-required to run the project on GPU, includes Python 3.10, TensorFlow 2.10, CUDA Toolkit
+required to run the project on Jupyter Lab in GPU mode, includes Python 3.10, TensorFlow 2.10, CUDA Toolkit
 11.2 and cuDNN 8.1.0.
 
 ## Challenges

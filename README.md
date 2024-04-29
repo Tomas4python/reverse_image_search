@@ -28,7 +28,9 @@ This single-notebook project provides a complete workflow for:
 - `/flask_app/app.py` - Flask web application code.
 - `requirements.txt` is the file that lists all the Python packages and their versions
 required to run the project on Jupyter Lab in GPU mode, includes Python 3.10, TensorFlow 2.10, CUDA Toolkit
-11.2 and cuDNN 8.1.0.
+11.2 and cuDNN 8.1.0. NOTE: if you want to perform `model.h5` file operations from
+notebooks - setup your environmet with newest TensorFlow version.
+- `flask_app/requirements.txt` - provides environment setup information for Flask App in PyCharm.
 
 ## Challenges
 - **TensorFlow Compatibility**: Initial challenges with model saving in TensorFlow v2.10 led

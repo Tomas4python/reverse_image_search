@@ -1,0 +1,8 @@
+.ipynb_checkpoints/
+.venv/
+pythonProject/.idea/workspace.xml
+pythonProject/
+flask_app/.idea
+features.npy
+labels.npy
+my_model.keras
